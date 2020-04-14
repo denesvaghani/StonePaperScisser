@@ -37,26 +37,26 @@
 				<%
 					for (int i = 0; i < totalPlayer; i++) {
 				%>
-				<td style="hight: 80px; width: 80px"><center>
+				<td style="hight: 9px; width: px"><center>
 						&nbsp;&nbsp;&nbsp;
 						<%
 							if (guesses[i] == Game.SCISSORS) {
 						%>
 						<img alt="Scissor"
-							src="C:\Users\ADMIN\eclipse-workspace\PaperStoneScisser\src\main\webapp\WEB-INF\imgs\scisser.png"
-							height="49px" width="49px">
+							src="\imgs\scisser.png"
+							height="49px" width="80">
 						<%
 							} else if (guesses[i] == Game.ROCK) {
 						%>
 						<img alt="Rock"
-							src="C:\Users\ADMIN\eclipse-workspace\PaperStoneScisser\src\main\webapp\WEB-INF\imgs\rock.png"
-							height="49px" width="49px">
+							src="\imgs\rock.png"
+							height="49px" width="80">
 						<%
 							} else {
 						%>
 						<img alt="Paper"
-							src="C:\Users\ADMIN\eclipse-workspace\PaperStoneScisser\src\main\webapp\WEB-INF\imgs\paper.png"
-							height="49px" width="49px">
+							src="\imgs\paper.png"
+							height="49px" width="80">
 						<%
 							}
 						%>
