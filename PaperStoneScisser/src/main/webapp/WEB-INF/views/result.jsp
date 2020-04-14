@@ -43,19 +43,19 @@
 							if (guesses[i] == Game.SCISSORS) {
 						%>
 						<img alt="Scissor"
-							src="\imgs\scisser.png"
+							src=".\imgs\scisser.png"
 							height="49px" width="80">
 						<%
 							} else if (guesses[i] == Game.ROCK) {
 						%>
 						<img alt="Rock"
-							src="\imgs\rock.png"
+							src=".\imgs\rock.png"
 							height="49px" width="80">
 						<%
 							} else {
 						%>
 						<img alt="Paper"
-							src="\imgs\paper.png"
+							src=".\imgs\paper.png"
 							height="49px" width="80">
 						<%
 							}
